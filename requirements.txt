@@ -1,0 +1,65 @@
+<div align="center">
+
+# 👁️ Computer Vision & OCR Lab
+
+### Image understanding, visual features, object detection, and text extraction
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Vision](https://img.shields.io/badge/Focus-Computer%20Vision-00A98F?style=for-the-badge)
+
+**A curated set of computer-vision notebooks** exploring image features, clustering, OCR, object detection, document processing, and low-light enhancement.
+
+</div>
+
+---
+
+## 🎨 What is included
+
+| Area | Experiments |
+|---|---|
+| 🧩 Image features | VGG19 feature extraction, similarity, and ViT embeddings |
+| 🗂️ Clustering | Image clustering with Vision Transformer representations |
+| 🔍 Object detection | YOLO-based card and glasses detection experiments |
+| 🪪 Document processing | Identity-document preprocessing and OCR/field extraction |
+| 🔠 OCR | Arabic/English EasyOCR and PDF text extraction |
+| 🌙 Enhancement | OpenCV template matching and Zero-DCE low-light enhancement |
+
+## 📁 Structure
+
+```text
+Computer-Vision-and-OCR/
+├── notebooks/
+│   ├── Vision-Transformer-Image-Clustering.ipynb
+│   ├── VGG19-Image-Similarity-and-Feature-Extraction.ipynb
+│   ├── Identity-Document-OCR-and-Field-Extraction.ipynb
+│   └── ...
+├── README.md
+└── requirements.txt
+```
+
+## 🚀 Setup
+
+```bash
+git clone https://github.com/MoSalah-2002/Computer-Vision-and-OCR.git
+cd Computer-Vision-and-OCR
+python -m venv .venv
+# Activate the environment, then:
+pip install -r requirements.txt
+```
+
+Open notebooks in Jupyter or Colab. Object-detection notebooks may require dataset/workspace configuration, and OCR/PDF notebooks may need local image/PDF files and system dependencies such as Poppler.
+
+## 🔐 Security & datasets
+
+Hard-coded API credentials were removed from the prepared notebooks. Configure service keys (for example Roboflow) through environment variables. External datasets, trained weights, and private document images are not included.
+
+## ⚠️ Notes
+
+- These are independent experiments and prototypes, not a unified production pipeline.
+- Detection quality depends on the dataset and trained weights used.
+- Do not use example document-processing code with real personal documents unless you have appropriate authorization and privacy safeguards.
+
+## 👋 About
+
+Maintained by **Mohamed Salah** — Machine Learning & NLP Engineer (Junior).
